@@ -43,7 +43,7 @@ public class LoginPage {
 	public String getLoginPageTitle()
 	{
 		String title = eleUtil.waitForTitleContainsAndReturn(AppConstants.LOGIN_PAGE_TITLE,AppConstants.DEFAULT_SHORT_TIMEOUT);
-		System.out.println("Heloooo.... Login page title is: " + title);
+		System.out.println("Login page title is: " + title);
 		return title;
 	}
 	
